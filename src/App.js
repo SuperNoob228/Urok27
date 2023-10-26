@@ -1,7 +1,12 @@
+import Text from "./components/Text/Text";
+
+
 function App(){
     return(
         <div>
-            Hello world
+            <Text name='Ali' age='18'/>
+            <Text name='Ali' age='18'/>
+            <Text/>
         </div>
     );
 }
